@@ -1,0 +1,38 @@
+.statistics {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+}
+.stat__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 100px; */
+  position: absolute;
+  padding-top: 50px;
+}
+
+.user__el {
+  border: 1px solid;
+  width: 80px;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.stat__list span {
+  padding-top: 10px;
+}
+
+.title {
+  text-align: center;
+}

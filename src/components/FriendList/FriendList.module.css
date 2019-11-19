@@ -1,0 +1,38 @@
+.friend_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  border-radius: 5px;
+}
+.item__div {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.disabled {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
